@@ -1,0 +1,28 @@
+/* Local Componet`s Styles */
+
+.Form-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* растягиваем по высоте экрана */
+}
+
+.Form-form {
+    border:3px solid #8f4b4b;
+    margin: auto;
+    height: 100px;
+}
+
+input {
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+.rgbField {
+    height: 48px;
+    filter: brightness(75%);
+    margin-top: -10px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
